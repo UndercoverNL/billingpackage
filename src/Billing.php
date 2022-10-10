@@ -1,6 +1,6 @@
 <?php
 
-namespace UndercoverNL\Billing;
+namespace UndercoverNL;
 
 class Billing {
     public function test()
