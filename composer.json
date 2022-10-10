@@ -8,13 +8,12 @@
             "email": "mail@undercovernl.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^8.1.0"
+      },
     "autoload": {
         "psr-4": {
             "UndercoverNL\\": "src"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+        }
     }
 }
