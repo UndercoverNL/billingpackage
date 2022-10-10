@@ -1,0 +1,19 @@
+{
+    "name": "undercovernl/billingpackage",
+    "description": "Pterodactyl v2 Billing Package",
+    "authors": [
+        {
+            "name": "UndercoverNL",
+            "email": "mail@undercovernl.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "UndercoverNL\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
