@@ -1,7 +1,7 @@
 {
     "name": "undercovernl/billingpackage",
     "description": "Pterodactyl v2 Billing Package",
-    "version": "1.0.0",
+    "version": "1.0",
     "authors": [
         {
             "name": "UndercoverNL",
