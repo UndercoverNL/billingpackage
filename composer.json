@@ -1,7 +1,7 @@
 {
     "name": "undercovernl/billingpackage",
     "description": "Pterodactyl v2 Billing Package",
-    "version": "v1.1",
+    "version": "v1.2",
     "authors": [
         {
             "name": "UndercoverNL",
@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": "^8.1.0",
+        "php": "^8.0",
         "stripe/stripe-php": "^10.2"
       },
     "autoload": {
