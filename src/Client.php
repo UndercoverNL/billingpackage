@@ -2,19 +2,14 @@
 
 namespace UndercoverNL;
 
-class StripeClient
+use UndercoverNL\Stripe\Service\StripeServiceFactory;
+
+class Client
 {
-    /**
-     * @var \Stripe\Service\CoreServiceFactory
-     */
-    private $coreServiceFactory;
+    protected $stripe;
 
-    public function __get($name)
+    public function __construct(StripeServiceFactory $stripe)
     {
-        if (null === $this->coreServiceFactory) {
-            $this->coreServiceFactory = new \UndercoverNL\Service\CoreServiceFactory($this);
-        }
-
-        return $this->coreServiceFactory->__get($name);
+        $this->stripe = $stripe;
     }
 }
